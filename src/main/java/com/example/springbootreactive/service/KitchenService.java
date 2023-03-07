@@ -17,7 +17,7 @@ public class KitchenService {
 
     private Random picker = new Random();
 
-    Flux<Dish> getDishes(){
+    public Flux<Dish> getDishes(){
         return Flux.<Dish> generate(sink -> sink.next(randomDish()))
                 .delayElements(Duration.ofMillis(250));
     }
