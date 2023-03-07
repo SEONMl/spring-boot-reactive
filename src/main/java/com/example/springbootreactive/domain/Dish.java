@@ -1,4 +1,4 @@
-package com.example.springbootreactive;
+package com.example.springbootreactive.domain;
 
 public class Dish {
     private String description;

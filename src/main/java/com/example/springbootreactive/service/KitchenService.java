@@ -1,5 +1,6 @@
-package com.example.springbootreactive;
+package com.example.springbootreactive.service;
 
+import com.example.springbootreactive.domain.Dish;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 

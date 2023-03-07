@@ -1,4 +1,4 @@
-package com.example.springbootreactive;
+package com.example.springbootreactive.controller;
 
 import reactor.core.publisher.Mono;
 import org.springframework.stereotype.Controller;

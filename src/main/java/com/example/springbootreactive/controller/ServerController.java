@@ -1,5 +1,7 @@
-package com.example.springbootreactive;
+package com.example.springbootreactive.controller;
 
+import com.example.springbootreactive.domain.Dish;
+import com.example.springbootreactive.service.KitchenService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
