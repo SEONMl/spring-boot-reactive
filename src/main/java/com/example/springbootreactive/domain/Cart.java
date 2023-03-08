@@ -25,4 +25,8 @@ public class Cart {
     public List<CartItem> getCartItems() {
         return this.cartItems;
     }
+
+    public String getId() {
+        return id;
+    }
 }

@@ -10,7 +10,7 @@ public class ExampleQueryService {
     private ItemByExampleRepository exampleRepository;
 
     Flux<Item> searchByExample(String name, String description, boolean useAnd){
-        Item item = new Item(description, 0.0);
+        Item item = new Item(name, description, 0.0);
 
         ExampleMatcher matcher = (useAnd
                 ? ExampleMatcher.matchingAll()

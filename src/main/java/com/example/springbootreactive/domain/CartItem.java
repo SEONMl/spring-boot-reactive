@@ -19,4 +19,12 @@ public class CartItem {
     public void increment() {
         this.quantity++;
     }
+
+    public void decrement() {
+        this.quantity--;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
 }
