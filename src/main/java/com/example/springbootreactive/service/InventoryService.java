@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 
 @Service
-class InventoryService {
+public class InventoryService {
 
     private ItemRepository itemRepository;
 
